@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.RunCucumberTest" time="0.58" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ali/project/calculator-bdd/target/test-classes:/Users/ali/project/calculator-bdd/target/classes:/Users/ali/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/ali/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-java/7.13.0/cucumber-java-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-core/7.13.0/cucumber-core-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-gherkin/7.13.0/cucumber-gherkin-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.13.0/cucumber-gherkin-messages-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/ali/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/ali/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/ali/.m2/repository/io/cucumber/datatable/7.13.0/datatable-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-plugin/7.13.0/cucumber-plugin-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/docstring/7.13.0/docstring-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/html-formatter/20.3.1/html-formatter-20.3.1.jar:/Users/ali/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/ali/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/ali/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-junit/7.13.0/cucumber-junit-7.13.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IR"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ali/project/calculator-bdd/target/surefire/surefirebooter-20250815132636261_3.jar /Users/ali/project/calculator-bdd/target/surefire 2025-08-15T13-26-36_126-jvmRun1 surefire-20250815132636261_1tmp surefire_0-20250815132636261_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ali/project/calculator-bdd/target/test-classes:/Users/ali/project/calculator-bdd/target/classes:/Users/ali/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/ali/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-java/7.13.0/cucumber-java-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-core/7.13.0/cucumber-core-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-gherkin/7.13.0/cucumber-gherkin-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.13.0/cucumber-gherkin-messages-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/ali/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/ali/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/ali/.m2/repository/io/cucumber/datatable/7.13.0/datatable-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-plugin/7.13.0/cucumber-plugin-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/docstring/7.13.0/docstring-7.13.0.jar:/Users/ali/.m2/repository/io/cucumber/html-formatter/20.3.1/html-formatter-20.3.1.jar:/Users/ali/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/ali/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/ali/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/ali/.m2/repository/io/cucumber/cucumber-junit/7.13.0/cucumber-junit-7.13.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ali"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ali/project/calculator-bdd"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/ali/project/calculator-bdd/target/surefire/surefirebooter-20250815132636261_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="ali"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/ali/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/_3/ff51qydj6wx9lv37m00fdyxr0000gn/T/"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="/Users/ali/project/calculator-bdd"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/ali/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="Perform a calculation #1" classname="Calculator" time="0.092">
+    <system-out><![CDATA[
+Scenario Outline: Perform a calculation           &amp#27;[90m# com/example/calculator.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                       &amp#27;[90m# com.example.CalculatorStepdefs.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter &amp#27;[0m&amp#27;[32m&amp#27;[1m10.0&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m5.0&amp#27;[0m&amp#27;[32m with the operator &amp#27;[0m&amp#27;[32m&amp#27;[1m"+"&amp#27;[0m &amp#27;[90m# com.example.CalculatorStepdefs.i_enter_and_with_the_operator(java.lang.Double,java.lang.Double,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m15.0&amp#27;[0m                  &amp#27;[90m# com.example.CalculatorStepdefs.the_result_should_be(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Perform a calculation #2" classname="Calculator" time="0.001">
+    <system-out><![CDATA[
+Scenario Outline: Perform a calculation           &amp#27;[90m# com/example/calculator.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                       &amp#27;[90m# com.example.CalculatorStepdefs.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter &amp#27;[0m&amp#27;[32m&amp#27;[1m20.0&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m8.0&amp#27;[0m&amp#27;[32m with the operator &amp#27;[0m&amp#27;[32m&amp#27;[1m"-"&amp#27;[0m &amp#27;[90m# com.example.CalculatorStepdefs.i_enter_and_with_the_operator(java.lang.Double,java.lang.Double,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m12.0&amp#27;[0m                  &amp#27;[90m# com.example.CalculatorStepdefs.the_result_should_be(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Perform a calculation #3" classname="Calculator" time="0.007">
+    <system-out><![CDATA[
+Scenario Outline: Perform a calculation          &amp#27;[90m# com/example/calculator.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                      &amp#27;[90m# com.example.CalculatorStepdefs.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter &amp#27;[0m&amp#27;[32m&amp#27;[1m7.0&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m6.0&amp#27;[0m&amp#27;[32m with the operator &amp#27;[0m&amp#27;[32m&amp#27;[1m"*"&amp#27;[0m &amp#27;[90m# com.example.CalculatorStepdefs.i_enter_and_with_the_operator(java.lang.Double,java.lang.Double,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m42.0&amp#27;[0m                 &amp#27;[90m# com.example.CalculatorStepdefs.the_result_should_be(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Perform a calculation #4" classname="Calculator" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Perform a calculation             &amp#27;[90m# com/example/calculator.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                         &amp#27;[90m# com.example.CalculatorStepdefs.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter &amp#27;[0m&amp#27;[32m&amp#27;[1m100.0&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m10.0&amp#27;[0m&amp#27;[32m with the operator &amp#27;[0m&amp#27;[32m&amp#27;[1m"/"&amp#27;[0m &amp#27;[90m# com.example.CalculatorStepdefs.i_enter_and_with_the_operator(java.lang.Double,java.lang.Double,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m10.0&amp#27;[0m                    &amp#27;[90m# com.example.CalculatorStepdefs.the_result_should_be(java.lang.Double)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Division by zero" classname="Calculator" time="0.01">
+    <system-out><![CDATA[
+Scenario: Division by zero                     &amp#27;[90m# com/example/calculator.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                    &amp#27;[90m# com.example.CalculatorStepdefs.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI try to divide &amp#27;[0m&amp#27;[32m&amp#27;[1m10.0&amp#27;[0m&amp#27;[32m by &amp#27;[0m&amp#27;[32m&amp#27;[1m0.0&amp#27;[0m             &amp#27;[90m# com.example.CalculatorStepdefs.i_try_to_divide_by(java.lang.Double,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe operation should throw an exception&amp#27;[0m &amp#27;[90m# com.example.CalculatorStepdefs.the_operation_should_throw_an_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
